@@ -1,9 +1,82 @@
+# jsmodule 1.4.2
+
+## Update: Change default non-normal 2 group comparison test to `wilcox.test`
+
+# jsmodule 1.4.1
+
+## Error fix: `jsBasicExtAddin`, `jsBasicGatget`
+
+
+# jsmodule 1.4.0
+
+## Fix :
+
+* update deprecated icon (`Plot` panel)
+
+## Update : 
+
+> feature applies in `jsBasicExtAddin` (shiny app)
+
+* Add description with callout
+  * `Data` , `Table 1` panel
+
+* modified some UI (with `style.css`)
+  * header color changed
+  * add zarathu & github page in header
+  * table 1's significant data changed
+  * `Data`'s table column has color (when vairable is category)
+
+* update DT function (`Data`)
+  * `Column visiblity` button added
+  * `Column Reorder` feature added
+  * may browse table with keyboard (`arrow` keys)
+
+## Refactor: 
+
+* `csvfileInput.R` Not use file's extension not name. (`csv.txt` will nor work)
+* `ggpairs.R` apply theme with less `if-else`
+
+# jsmodule 1.3.6
+
+## Fix: 
+
+* `kaplanModule` PPT download
+
+
+# jsmodule 1.3.5
+
+## Fix: 
+
+* `rocModule`
+
+* Change `jsRepeatedGadjet` to `jsRepeatedGadget`
+
+
+# jsmodule 1.3.4
+
+## Fix and Update: `rocModule`
+
+* cutoff fix: `rocModule`
+
+* Add **"Show 1-specificity"** option
+
+
+# jsmodule 1.3.3
+
+## New module (Thanks for [Changwoo Lim](https://github.com/leevenstar))
+
+* Histogram(`histogramUI`, `histogramServer`)
+
+
 # jsmodule 1.3.2
 
-## Update
+## Update 
 
-* Add cutoff information to `timerocModule` when 1 model, 1 indpendent variable.
+* Add cutoff information to `timerocModule`, `rocModule`   when 1 model, 1 indpendent variable.
 
+## Fix
+
+* `timerocModule`: Invert plot when auc < 0.5
 
 # jsmodule 1.3.1
 

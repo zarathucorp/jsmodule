@@ -2,23 +2,23 @@
 % Please edit documentation in R/jsRepeatedGadget.R
 \name{jsRepeatedAddin}
 \alias{jsRepeatedAddin}
-\title{jsRepeatedAddin: Rstudio addin of jsRepeatedGadjet}
+\title{jsRepeatedAddin: Rstudio addin of jsRepeatedGadget}
 \usage{
 jsRepeatedAddin()
 }
 \value{
-Rstudio addin of jsRepeatedGadjet
+Rstudio addin of jsRepeatedGadget
 }
 \description{
-Rstudio addin of jsRepeatedGadjet
+Rstudio addin of jsRepeatedGadget
 }
 \details{
-Rstudio addin of jsRepeatedGadjet
+Rstudio addin of jsRepeatedGadget
 }
 \examples{
-if(interactive()){
- jsRepeatedAddin()
- }
+if (interactive()) {
+  jsRepeatedAddin()
+}
 }
 \seealso{
 \code{\link[rstudioapi]{rstudio-editors}}
